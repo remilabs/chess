@@ -1,0 +1,33 @@
+
+.board {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.square {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.even {
+  background-color: #CB807D;
+}
+
+.odd {
+  background-color: #F1F1EF;
+}
+
+.potential {
+  background-color: #787878;
+}
