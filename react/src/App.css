@@ -1,0 +1,47 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board {
+  width: 60vh;
+  height: 60vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  border: 1px solid black;
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cell {
+  flex: 1;
+  font-size: 40pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.black {
+  background-color: grey;
+}
+
+.white {
+  background-color: white;
+}
+
+.active {
+  background-color: lightblue;
+}
+
+.option {
+  background-color: lightsalmon;
+}
